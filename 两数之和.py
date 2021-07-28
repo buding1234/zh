@@ -6,6 +6,7 @@
 """
 
 class Solution:
+    #暴力穷举
     def twoSum(self, nums, target: int):
         List=[]
         for i in range(0,len(nums)):
